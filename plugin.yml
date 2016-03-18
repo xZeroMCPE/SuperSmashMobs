@@ -1,0 +1,23 @@
+name: SuperSmashMobs
+main: tkg\SSM
+version: 1.0
+author: TheKnightGamer
+api: [2.0.0]
+load: POSTWORLD
+commands:
+ d:
+  permission: ssm.mob
+  usage: /ssm <name> [player]
+permissions:
+ ssm:
+  default: op
+  children:
+   ssm.mob:
+    default: op
+    description: Disguise!
+   ssm.other:
+    default: op
+    description: Disguise others
+   ssm.exempt:
+    default: false
+    description: See through disguises
