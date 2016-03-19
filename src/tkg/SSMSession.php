@@ -13,7 +13,7 @@ class 	SSMSession {
     public function __construct(Player $player, $type){
         $this->p = $player;
         $this->type = $type;
-        $this->startDisguise();
+        $this->startMobDisguise();
     }
     public function startMobDisguise(){
         $pk = new RemovePlayerPacket;
