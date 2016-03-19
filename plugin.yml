@@ -2,7 +2,9 @@ name: SuperSmashMobs
 main: tkg\SSM
 version: 1.0
 author: TheKnightGamer
-api: [2.0.0]
+api: 
+- 1.14.0
+- 2.0.0
 load: POSTWORLD
 commands:
  d:
