@@ -1,4 +1,5 @@
 <?php
+
 namespace tkg;
 
 class MobStore{
